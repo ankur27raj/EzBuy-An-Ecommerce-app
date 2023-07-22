@@ -1,1 +1,1 @@
-@copyright by becodemy 2023
+@copyright by EzBuy 2023
