@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: '*',
+  origin: 'https://ezbuy-frontend.onrender.com',
   credentials: true
 }));
 
