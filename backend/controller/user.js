@@ -64,7 +64,7 @@ const createActivationToken = (user) => {
 
 // activate user
 router.post(
-  "/activation",
+  `/activation/${activationToken}`,
   catchAsyncErrors(async (req, res, next) => {
     try {
       const { activation_token } = req.body;
